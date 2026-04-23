@@ -5,17 +5,17 @@ import { FadeIn, SectionHeading } from "@/components/ui/animations";
 const features = [
   {
     heading: "Hears Everything. Forgets Nothing.",
-    body: "HelpAI captures BOTH sides of the conversation — your microphone AND the other participants through system audio. Two independent streams. Continuous 120-second rolling buffer. Every word. Every speaker. Every time.",
+    body: "HelpAI captures BOTH sides of the conversation  your microphone AND the other participants through system audio. Two independent streams. Continuous 120-second rolling buffer. Every word. Every speaker. Every time.",
     align: "left" as const,
   },
   {
     heading: "Responses in YOUR Voice, Not Robot-Speak",
-    body: "HelpAI doesn't generate generic AI slop. It ghostwrites responses in first person — 'I would...', 'In my experience...' — with natural conversational flow. It sounds like YOU at your absolute best.",
+    body: "HelpAI doesn't generate generic AI slop. It ghostwrites responses in first person  'I would...', 'In my experience...'  with natural conversational flow. It sounds like YOU at your absolute best.",
     align: "right" as const,
   },
   {
     heading: "See Code on Screen? Get the Fix Instantly.",
-    body: "Press Ctrl+Shift+E and HelpAI captures your screen, identifies the programming language and framework, and generates a complete, production-ready fix. Python, TypeScript, React, Java, SQL — it reads the screen and responds.",
+    body: "Press Ctrl+Shift+E and HelpAI captures your screen, identifies the programming language and framework, and generates a complete, production-ready fix. Python, TypeScript, React, Java, SQL  it reads the screen and responds.",
     align: "left" as const,
   },
   {

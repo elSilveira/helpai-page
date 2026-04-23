@@ -33,7 +33,7 @@ export function PainPoints() {
             <p className="mt-6 text-lg text-muted leading-relaxed">
               You&apos;re juggling note-taking, formulating responses,
               remembering context from 20 minutes ago, AND trying to sound smart
-              — all at the same time. It&apos;s exhausting. And it shows.
+               all at the same time. It&apos;s exhausting. And it shows.
             </p>
           </FadeIn>
 

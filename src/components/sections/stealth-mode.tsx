@@ -28,7 +28,7 @@ export function StealthMode() {
             <p className="mt-6 text-lg text-muted leading-relaxed">
               Activate Stealth Mode and HelpAI becomes completely invisible to
               screen recordings, screen shares, and capture tools. It&apos;s
-              there for you — and <strong className="text-foreground">ONLY</strong> you.
+              there for you  and <strong className="text-foreground">ONLY</strong> you.
             </p>
             <p className="mt-4 text-muted leading-relaxed">
               This isn&apos;t a hack or a workaround. It uses the same Windows
@@ -85,7 +85,7 @@ export function StealthMode() {
                     </span>
                     <div className="mt-4 space-y-3">
                       <div className="h-16 rounded-lg bg-muted/10" />
-                      {/* No overlay — just empty space */}
+                      {/* No overlay  just empty space */}
                       <div className="h-[72px]" />
                     </div>
                   </div>

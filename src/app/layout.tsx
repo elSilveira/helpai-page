@@ -9,11 +9,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "HelpAI — Become the God of Meetings",
+  title: "HelpAI  Become the God of Meetings",
   description:
-    "Real-time AI whispering in your ear — invisible to everyone else. AI-powered meeting assistant with stealth mode.",
+    "Real-time AI whispering in your ear  invisible to everyone else. AI-powered meeting assistant with stealth mode.",
   openGraph: {
-    title: "HelpAI — Become the God of Meetings",
+    title: "HelpAI  Become the God of Meetings",
     description:
       "Real-time AI-powered insights, suggested responses, and strategic talking points during your meetings.",
     type: "website",

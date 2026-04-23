@@ -4,7 +4,7 @@ import { FadeIn, SectionHeading } from "@/components/ui/animations";
 import { Button } from "@/components/ui/button";
 
 const sharedFeatures = [
-  "Stealth Mode — invisible to screen shares & recordings",
+  "Stealth Mode  invisible to screen shares & recordings",
   "Priority support",
   "Early access to new features",
 ];
@@ -58,11 +58,11 @@ export function Pricing() {
             </div>
           </FadeIn>
 
-          {/* Pro Yearly — highlighted */}
+          {/* Pro Yearly  highlighted */}
           <FadeIn delay={0.15}>
             <div className="glass-card p-8 h-full perspective-card border-accent-green/30 relative">
               <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-1 text-[10px] font-bold uppercase tracking-wider bg-accent-green text-background rounded-full whitespace-nowrap">
-                Best Value — Save 50%
+                Best Value  Save 50%
               </div>
 
               <h3 className="text-xl font-bold mb-1">Pro</h3>
@@ -89,7 +89,7 @@ export function Pricing() {
               </ul>
 
               <Button variant="primary" className="w-full">
-                Go Pro — Save 50%
+                Go Pro  Save 50%
               </Button>
             </div>
           </FadeIn>
@@ -126,7 +126,7 @@ export function Pricing() {
         <FadeIn delay={0.4}>
           <p className="text-center text-sm text-muted mt-10 max-w-xl mx-auto">
             All plans include unlimited meetings. Your AI API keys (OpenAI, xAI)
-            are yours — we never touch them. Cancel anytime.
+            are yours  we never touch them. Cancel anytime.
           </p>
         </FadeIn>
       </div>

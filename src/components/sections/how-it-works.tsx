@@ -6,13 +6,13 @@ const steps = [
   {
     number: "01",
     title: "It Listens",
-    body: "HelpAI captures both sides of the conversation in real-time — your mic and their audio — with dual-stream transcription. You don't press anything.",
+    body: "HelpAI captures both sides of the conversation in real-time  your mic and their audio  with dual-stream transcription. You don't press anything.",
     color: "accent-blue",
   },
   {
     number: "02",
     title: "It Thinks",
-    body: "GPT-4o or a local AI model analyzes what the other person just said and drafts YOUR perfect response — in your voice, in first person.",
+    body: "GPT-4o or a local AI model analyzes what the other person just said and drafts YOUR perfect response  in your voice, in first person.",
     color: "accent-purple",
   },
   {
@@ -129,7 +129,7 @@ export function HowItWorks() {
                       &ldquo;I&apos;ll have the{" "}
                       <strong>regional breakdown</strong> ready alongside the
                       overall Q3 numbers. I can segment by{" "}
-                      <strong>EMEA, APAC, and Americas</strong> — want me to
+                      <strong>EMEA, APAC, and Americas</strong>  want me to
                       include YoY comparisons?&rdquo;
                     </p>
                   </div>

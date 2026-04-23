@@ -34,7 +34,7 @@ export function Hero() {
         <FadeIn delay={0.3}>
           <p className="mt-8 max-w-2xl mx-auto text-lg md:text-xl text-muted leading-relaxed">
             HelpAI listens to your meetings in real-time, feeds you AI-powered
-            insights, suggested responses, and strategic talking points —{" "}
+            insights, suggested responses, and strategic talking points {" "}
             <span className="text-foreground font-medium">
               completely invisible to everyone else on the call.
             </span>
@@ -70,7 +70,7 @@ export function Hero() {
           </div>
         </FadeIn>
 
-        {/* Hero visual — floating overlay mockup */}
+        {/* Hero visual  floating overlay mockup */}
         <FadeIn delay={0.9}>
           <div className="mt-20 relative mx-auto max-w-3xl">
             {/* Glow behind */}
@@ -103,12 +103,12 @@ export function Hero() {
                     <div className="flex items-center gap-2 mb-3">
                       <div className="w-2 h-2 rounded-full bg-accent-green animate-pulse" />
                       <span className="text-xs font-semibold text-accent-blue tracking-wider uppercase">
-                        HelpAI — Live
+                        HelpAI  Live
                       </span>
                     </div>
                     <p className="text-sm text-foreground/90 leading-relaxed">
                       &ldquo;I&apos;d suggest pivoting the conversation toward
-                      Q3 deliverables — they seem concerned about the
+                      Q3 deliverables  they seem concerned about the
                       timeline...&rdquo;
                     </p>
                     <div className="mt-3 flex gap-2">

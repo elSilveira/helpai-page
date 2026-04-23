@@ -7,11 +7,11 @@ import { FadeIn, SectionHeading } from "@/components/ui/animations";
 const faqs = [
   {
     q: "Is this cheating?",
-    a: "HelpAI is a productivity tool — like having notes, a CRM, or a prep doc open during a call. It helps you perform at your best. What you say is still YOUR words, YOUR decision. The AI suggests, you decide.",
+    a: "HelpAI is a productivity tool  like having notes, a CRM, or a prep doc open during a call. It helps you perform at your best. What you say is still YOUR words, YOUR decision. The AI suggests, you decide.",
   },
   {
     q: "Can people see the overlay during screen shares?",
-    a: "Not with Stealth Mode (Pro plan). It uses Windows' native display-exclusion API — the same technology used by password managers and DRM players. The overlay is physically excluded from the capture pipeline.",
+    a: "Not with Stealth Mode (Pro plan). It uses Windows' native display-exclusion API  the same technology used by password managers and DRM players. The overlay is physically excluded from the capture pipeline.",
   },
   {
     q: "Does it work offline?",

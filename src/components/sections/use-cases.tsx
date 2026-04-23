@@ -11,25 +11,25 @@ const scenarios = [
     label: "Price Objection",
     buyer: "Honestly, the price is way higher than what we budgeted. I'm not sure we can justify this to our CFO.",
     bad: "I understand. We can maybe do a small discount... let me check with my manager.",
-    ai: "I hear you — and that's exactly why I want to walk you through the ROI breakdown. Companies in your space typically recover the investment within 6 weeks through reduced churn alone. Would it help if I built a custom cost-savings model for your CFO?",
+    ai: "I hear you  and that's exactly why I want to walk you through the ROI breakdown. Companies in your space typically recover the investment within 6 weeks through reduced churn alone. Would it help if I built a custom cost-savings model for your CFO?",
     tag: "reframe → value",
-    insight: "AI detected a price objection and reframed to ROI — no discounting, no weakness.",
+    insight: "AI detected a price objection and reframed to ROI  no discounting, no weakness.",
   },
   {
     id: "competitor",
     label: "Competitor Mention",
     buyer: "We've been looking at [Competitor] too. They seem to offer something similar at a lower price point.",
     bad: "Oh yeah, they're okay I guess... but we're better because we have more features.",
-    ai: "Great that you're doing your due diligence — that's how the best decisions get made. The key difference is that our platform handles [specific pain point they mentioned earlier] natively, which means your team won't need the 2-3 workarounds that solution typically requires. Want me to show you a side-by-side on that specific workflow?",
+    ai: "Great that you're doing your due diligence  that's how the best decisions get made. The key difference is that our platform handles [specific pain point they mentioned earlier] natively, which means your team won't need the 2-3 workarounds that solution typically requires. Want me to show you a side-by-side on that specific workflow?",
     tag: "acknowledge → differentiate",
-    insight: "AI recalled their earlier pain point and used it as a competitive advantage — specific, not generic.",
+    insight: "AI recalled their earlier pain point and used it as a competitive advantage  specific, not generic.",
   },
   {
     id: "stall",
     label: "Decision Stall",
     buyer: "This looks interesting. Let me take it back to the team and we'll circle back in a few weeks.",
     bad: "Sure, take your time! I'll follow up next month.",
-    ai: "Absolutely — I want your team to feel confident about this. What if I put together a 2-slide summary addressing the specific concerns you mentioned today? That way you're walking in with answers, not just another vendor pitch. Can we lock in 15 minutes next Thursday to review their feedback together?",
+    ai: "Absolutely  I want your team to feel confident about this. What if I put together a 2-slide summary addressing the specific concerns you mentioned today? That way you're walking in with answers, not just another vendor pitch. Can we lock in 15 minutes next Thursday to review their feedback together?",
     tag: "create urgency → next step",
     insight: "AI prevented the deal from going dark by securing a concrete next step with clear value.",
   },
@@ -38,9 +38,9 @@ const scenarios = [
     label: "Technical Deep-Dive",
     buyer: "How does your API handle rate limiting? Our current provider throttles us at 100 requests per second and it's killing our batch jobs.",
     bad: "Uh, I'd need to check with our engineering team on the specifics and get back to you.",
-    ai: "That's a real pain point — and one we solved specifically. Our API supports 10,000 requests per second on the Growth plan with burst capacity up to 25K. For batch jobs, we also have a dedicated async endpoint that processes in parallel with no throttling. I can get you sandbox access today so your team can stress-test it themselves.",
+    ai: "That's a real pain point  and one we solved specifically. Our API supports 10,000 requests per second on the Growth plan with burst capacity up to 25K. For batch jobs, we also have a dedicated async endpoint that processes in parallel with no throttling. I can get you sandbox access today so your team can stress-test it themselves.",
     tag: "precise answer → immediate action",
-    insight: "AI pulled exact technical specs and offered a hands-on next step — no 'I'll get back to you' needed.",
+    insight: "AI pulled exact technical specs and offered a hands-on next step  no 'I'll get back to you' needed.",
   },
 ];
 
@@ -69,7 +69,7 @@ function EquationBlock() {
           </div>
           <p className="mt-8 text-muted max-w-2xl mx-auto leading-relaxed">
             Selling skills alone leave gaps. AI alone sounds robotic. But when a great seller
-            gets real-time AI whispering the perfect response — that combination{" "}
+            gets real-time AI whispering the perfect response  that combination{" "}
             <span className="text-foreground font-semibold">surpasses any other reality.</span>{" "}
             You don&apos;t replace your instincts. You <span className="text-accent-green font-semibold">amplify</span> them.
           </p>
@@ -147,7 +147,7 @@ function LiveSalesDemo() {
                       &ldquo;{scenario.bad}&rdquo;
                     </p>
                     <p className="mt-3 text-[10px] text-accent-coral/60 uppercase font-bold tracking-wider">
-                      ⚠ Weak response — deal at risk
+                      ⚠ Weak response  deal at risk
                     </p>
                   </div>
                 </div>
@@ -191,7 +191,7 @@ const otherRoles = [
     headline: "Run Interviews Like a Pro",
     bullets: [
       "AI-suggested follow-up questions based on candidate responses",
-      "Stay compliant — questions framed within legal boundaries",
+      "Stay compliant  questions framed within legal boundaries",
       "Consistent evaluation with AI-assisted scoring",
     ],
   },
@@ -200,9 +200,9 @@ const otherRoles = [
     role: "For Tech Leads",
     headline: "Debug in the Meeting, Not After",
     bullets: [
-      "Screenshot your screen — get instant production-ready fixes",
+      "Screenshot your screen  get instant production-ready fixes",
       "AI identifies language, framework, and gives solutions",
-      "Stop saying 'I'll look into it' — have the answer NOW",
+      "Stop saying 'I'll look into it'  have the answer NOW",
     ],
   },
   {
@@ -220,7 +220,7 @@ const otherRoles = [
     role: "For Consultants",
     headline: "Deliver Expertise on the Spot",
     bullets: [
-      "Sound like you prepared for weeks — even on a first call",
+      "Sound like you prepared for weeks  even on a first call",
       "AI pulls relevant frameworks and methodologies in real-time",
       "Be the consultant who always has the right answer",
     ],
@@ -257,7 +257,7 @@ export function UseCases() {
         {/* Other roles */}
         <FadeIn delay={0.1}>
           <h3 className="text-2xl md:text-3xl font-bold text-center mt-24 mb-12">
-            Not just for sales —{" "}
+            Not just for sales {" "}
             <span className="text-accent-blue">built for every meeting.</span>
           </h3>
         </FadeIn>
