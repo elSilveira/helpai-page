@@ -75,7 +75,6 @@ export function UseCases() {
           title="Built for People Who Live in Meetings"
           subtitle="Whether you're closing deals, hiring talent, or leading teams — HelpAI makes you dangerously effective."
         />
-
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {useCases.map((card, i) => (
             <FadeIn key={card.role} delay={i * 0.1}>
